@@ -16,7 +16,7 @@ Faster-Whisper is much faster than OpenAI's Whisper, and it requires less RAM/VR
 Run your command-line interface as Administrator.   
 By default the subtitles are created in the same folder where an executable file is located.   
 Programs automatically will choose to work on GPU if CUDA is detected.   
-For decent transcription use not smaller than `small` model, `medium` is recommended.
+For decent transcription use not smaller than `medium` model.
    
 ## OpenAI's Whisper standalone info
 
