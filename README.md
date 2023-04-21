@@ -18,7 +18,7 @@ By default the subtitles are created in the same folder where an executable file
 Programs automatically will choose to work on GPU if CUDA is detected.   
 For decent transcription use not smaller than `small` model, `medium` is recommended.
    
-## OpenAI standalone info
+## OpenAI's Whisper standalone info
 
 OpenAI version needs 'FFmpeg.exe' in PATH, or copy it to Whisper's folder [Subtitle Edit downloads FFmpeg automatically].
    
