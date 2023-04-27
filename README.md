@@ -25,7 +25,7 @@ OpenAI version needs 'FFmpeg.exe' in PATH, or copy it to Whisper's folder [Subti
    
 ## Faster-Whisper standalone info
 
-By default it looks for models in the same folder, should be named like -> `_models\faster-whisper-medium`.   
+By default it looks for models in the same folder, it path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln   
 In Subtitle Edit it can be selected for CTranslate2 engine, just rename it to `whisper-ctranslate2.exe`.   
 "large" is mapped to `large-v2` model.
