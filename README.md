@@ -1,6 +1,6 @@
 # whisper-standalone-win
 
-![alt text](https://i.imgur.com/BNVNKKg.png)
+![alt text](https://i.imgur.com/DYVm3u6.png)
 
 Standalone executables of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
 
