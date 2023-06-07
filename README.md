@@ -9,9 +9,9 @@ Meant to be used in command-line interface or [Subtitle Edit](https://github.com
 Faster-Whisper is much faster than OpenAI's Whisper, and it requires less RAM/VRAM.
 
 ## Usage examples
-* `whisper.exe "D:\videofile.mkv" --language=English --model=medium`   
+* `whisper-faster.exe "D:\videofile.mkv" --language=English --model=medium`   
 
-* `whisper.exe --help`
+* `whisper-faster.exe --help`
 
 ## Notes
 
