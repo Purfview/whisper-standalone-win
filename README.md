@@ -1,3 +1,5 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)   
+
 # whisper-standalone-win
 
 ![alt text](https://i.imgur.com/DYVm3u6.png)
@@ -34,3 +36,7 @@ By default it looks for models in the same folder, in path like this -> `_models
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln   
 In Subtitle Edit it can be selected for CTranslate2 engine, just rename it to `whisper-ctranslate2.exe`.   
 "large" is mapped to `large-v2` model.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
+
+
