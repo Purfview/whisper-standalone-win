@@ -35,6 +35,7 @@ Some defaults are tweaked for movies transcriptions and to make it portable.
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln   
 In Subtitle Edit it can be selected for CTranslate2 engine, just rename it to `whisper-ctranslate2.exe`.   
+By default the subtitles are created in the same folder where an executable file is located.   
 "large" is mapped to `large-v2` model.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
