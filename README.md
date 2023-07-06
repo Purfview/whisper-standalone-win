@@ -21,7 +21,8 @@ Run your command-line interface as Administrator.
 Don't copy programs to the Windows' folders!    
 Programs automatically will choose to work on GPU if CUDA is detected.   
 For decent transcription use not smaller than `medium` model.   
-Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nwRCV-bTU
+Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nwRCV-bTU   
+Batch processing: https://github.com/Purfview/whisper-standalone-win/discussions/29   
    
 ## OpenAI's Whisper standalone info:
    
