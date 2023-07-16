@@ -39,7 +39,7 @@ Models are downloaded automatically or can be downloaded manually from: https://
 In Subtitle Edit it can be selected for CTranslate2 engine, just rename it to `whisper-ctranslate2.exe`.   
 By default the subtitles are created in the same folder where the executable file is located.   
 "large" is mapped to `large-v2` model.   
-`beam_size=5` potentially can improve transcription ot some halucination go away, but makes it run ~twice slower.      
+`beam_size=5` potentially can improve transcription or some halucination go away, but makes it run ~twice slower.      
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
