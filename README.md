@@ -35,8 +35,7 @@ Needs 'FFmpeg.exe' in PATH, or copy it to Whisper's folder [Subtitle Edit downlo
 Some defaults are tweaked for movies transcriptions and to make it portable.   
 Shows the progress bar in the title bar of command-line interface.   
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
-Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln     
-By default the subtitles are created in the same folder where the executable file is located.   
+Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln       
 `large` is mapped to `large-v2` model.   
 `beam_size=5` potentially can improve transcription or make some halucination go away, but makes it ~twice slower.      
 
