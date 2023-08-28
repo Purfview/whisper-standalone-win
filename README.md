@@ -37,7 +37,8 @@ Shows the progress bar in the title bar of command-line interface.
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln       
 `large` is mapped to `large-v2` model.   
-`beam_size=1` can speed-up transcription by ~40%. [ in my tests it had insignificant impact on accuracy ]      
+`beam_size=1`: can speed-up transcription by ~40%. [ in my tests it had insignificant impact on accuracy ]     
+`compute_type`: test different types to find fastest for your hardware.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
