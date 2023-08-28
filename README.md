@@ -33,7 +33,7 @@ Needs 'FFmpeg.exe' in PATH, or copy it to Whisper's folder [Subtitle Edit downlo
 ## Faster-Whisper standalone info:
 
 Some defaults are tweaked for movies transcriptions and to make it portable.   
-Shows the progress bar in the title bar of command-line interface.   
+Shows the progress bar in the title bar of command-line interface. [or it can be printed with `-pp`]   
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln       
 `large` is mapped to `large-v2` model.   
