@@ -8,7 +8,7 @@ Standalone executables of [OpenAI's Whisper](https://github.com/openai/whisper) 
 
 Executables are compatible with Windows 7 x64 and above.    
 Meant to be used in command-line interface or [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit).   
-Faster-Whisper is much faster than OpenAI's Whisper, and it requires less RAM/VRAM.
+Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires less RAM/VRAM.
 
 ## Usage examples:
 * `whisper-faster.exe "D:\videofile.mkv" --language=English --model=medium`   
