@@ -6,7 +6,7 @@
 
 Standalone executables of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
 
-Executables are compatible with Windows 7 x64, Linux v5.4, Mac OS X v10.15 and above.    
+Faster-Whisper eExecutables are compatible with Windows 7 x64, Linux v5.4, Mac OS X v10.15 and above.    
 Meant to be used in command-line interface or [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit).   
 Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires less RAM/VRAM.
 
