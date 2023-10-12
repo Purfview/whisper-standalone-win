@@ -24,11 +24,6 @@ For decent transcription use not smaller than `medium` model.
 Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nwRCV-bTU   
 Examples how to do batch processing on the multiple files: https://github.com/Purfview/whisper-standalone-win/discussions/29   
    
-## OpenAI's Whisper standalone info:
-   
-By default the subtitles are created in the current folder.   
-Needs 'FFmpeg.exe' in PATH, or copy it to Whisper's folder [Subtitle Edit downloads FFmpeg automatically].
-   
    
 ## Faster-Whisper standalone info:
 
