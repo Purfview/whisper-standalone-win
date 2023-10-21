@@ -33,7 +33,8 @@ By default it looks for models in the same folder, in path like this -> `_models
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln       
 `large` is mapped to `large-v2` model.   
 `beam_size=1`: can speed-up transcription twice. [ in my tests it had insignificant impact on accuracy ]     
-`compute_type`: test different types to find fastest for your hardware. [ use `--verbose` to see all supported types ]   
+`compute_type`: test different types to find fastest for your hardware. [ use `--verbose` to see all supported types ]    
+To reduce memory usage try `-bo=1`, or `--temperature_increment_on_fallback=None`.   
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
