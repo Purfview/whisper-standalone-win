@@ -1,1 +1,11 @@
+### Note: It's not a comprehensive log.
+
+## r160.4:
+Bugfix: -prompt=None wasn't working.
+UTF-8 chars are now supported in SE's "console".
+
+## r160.3:
+large-v3 model.
+Cantonese language.
+
 
