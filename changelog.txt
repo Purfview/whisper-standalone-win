@@ -1,5 +1,10 @@
 ### Note: It's not a comprehensive log.
 
+## r160.5:
+large-v3 use fp16 model by default. [Removed other v3 options]
+New switch: --one_word
+Updated Pyinstaller to v6.2.0
+
 ## r160.4:
 Bugfix: -prompt=None wasn't working.
 UTF-8 chars are now supported in SE's "console".
