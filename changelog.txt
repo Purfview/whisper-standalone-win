@@ -5,7 +5,12 @@ Bugfix: -prompt=None wasn't working.
 UTF-8 chars are now supported in SE's "console".
 
 ## r160.3:
-large-v3 model.
-Cantonese language.
+'large-v3' model.
+'Cantonese' language.
 
+## r160.2:
+Failed release with a code typo.
+Was online for ~15 mins...
 
+## r160.1:
+Bugfix: Fixed bug on macOS -> https://github.com/Purfview/whisper-standalone-win/issues/86
