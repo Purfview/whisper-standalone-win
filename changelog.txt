@@ -1,5 +1,8 @@
 ### Note: It's not a comprehensive log.
 
+## r160.6:
+Bugfix: Autodownload wasn't working for `large-v3` [ regression in r160.5 ]
+
 ## r160.5:
 large-v3 use fp16 model by default. [Removed other v3 options]
 New switch: --one_word
