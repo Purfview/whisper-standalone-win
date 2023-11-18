@@ -1,5 +1,19 @@
 ### Note: It's not a comprehensive log.
 
+## r160.7:
+Bugfix: Wildcard input could fail if brackets were in a folder's name.
+Improved `--one_word` with the second option.
+Improved `--skip` to work with all output formats. If output is "all" - checks only "srt".
+New `--check_files` argument.
+Added a catch for invalid `audio` input.
+Turns off word_timestamps if output format is "text".
+
+Exposed options :
+`--prefix`
+`--suppress_blank`
+`--without_timestamps`
+`--max_initial_timestamp`
+
 ## r160.6:
 Bugfix: Autodownload wasn't working for `large-v3` [ regression in r160.5 ]
 
