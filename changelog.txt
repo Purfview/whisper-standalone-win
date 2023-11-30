@@ -1,5 +1,16 @@
 ### Note: It's not a comprehensive log.
 
+## r160.8:
+Improved --skip to work with all output folders.
+
+New parameters :
+`--sentence`
+`--standard`
+`--max_comma`
+`--max_gap`
+`--max_line_width`
+`--max_line_count`
+
 ## r160.7:
 Bugfix: Wildcard input could fail if brackets were in a folder's name.
 Improved `--one_word` with the second option.
