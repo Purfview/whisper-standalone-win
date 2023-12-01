@@ -1,5 +1,9 @@
 ### Note: It's not a comprehensive log.
 
+## r160.9:
+Bugfix: The final word could disappear in some combination of the new parameters from r160.8.
+New parameter : --standard_asia
+
 ## r160.8:
 Improved --skip to work with all output folders.
 
