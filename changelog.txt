@@ -1,5 +1,8 @@
 ### Note: It's not a comprehensive log.
 
+## r160.10:
+Bugfix: The final line disappeared if the final word wasn't punctuated when using  `--sentence`.
+
 ## r160.9:
 Bugfix: The final word could disappear in some combination of the new parameters from r160.8.
 New parameter : --standard_asia
