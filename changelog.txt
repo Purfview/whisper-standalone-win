@@ -3,7 +3,7 @@
 ## r160.11:
 Bugfix:  `--prompt_reset_on_temperature` was broken. Regression since r139.
 Improved `--initial_prompt` default preset, there is alternative experimental `auto` preset.
-Improved `--sentence` with the ignore words list like `Mr.` and ect..
+Improved `--sentence` with the ignore words list, words like `Mr.` and ect..
 The last progress update is passed to the title bar.
 
 New parameters :
