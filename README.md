@@ -30,7 +30,7 @@ Examples how to do batch processing on the multiple files: https://github.com/Pu
 Some defaults are tweaked for movies transcriptions and to make it portable.   
 Shows the progress bar in the title bar of command-line interface. [or it can be printed with `-pp`]   
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
-Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/guillaumekln        
+Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/Systran        
 `beam_size=1`: can speed-up transcription twice. [ in my tests it had insignificant impact on accuracy ]     
 `compute_type`: test different types to find fastest for your hardware. [`--verbose=true` to see all supported types]    
 To reduce memory usage try `--best_of=1`, or `--temperature_increment_on_fallback=None`.   
