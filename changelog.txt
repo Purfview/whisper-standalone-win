@@ -1,5 +1,8 @@
 ### Note: It's not a comprehensive log.
 
+## r167.2:
+Fix: Commit #165 was missing in `r167.1` release.
+
 ## r167.1:
 `large-v3` now is using the official model.
 Updated PyInstaller to v6.3.0
