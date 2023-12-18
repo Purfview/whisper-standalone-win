@@ -1,5 +1,12 @@
 ### Note: It's not a comprehensive log.
 
+## r160.12:
+Doesn't add to prompt segments triggered by the common hallucinations in hallucinations_list.
+
+New parameters :
+`--max_comma_cent`
+`--min_dist_to_end`
+
 ## r160.11:
 Bugfix:  `--prompt_reset_on_temperature` was broken. Regression since r139.
 Improved `--initial_prompt` default preset, there is alternative experimental `auto` preset.
