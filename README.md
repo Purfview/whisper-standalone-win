@@ -17,9 +17,8 @@ Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires le
 
 ## Notes:
 
-Executables & libs can be downloaded from `Releases`. [at the right side of this page]   
-Run your command-line interface as Administrator.   
-Don't copy programs to the Windows' folders!    
+Executables & libs can be downloaded from `Releases`. [at the right side of this page]    
+Don't copy programs to the Windows' folders! [run as Administrator if you did]       
 Programs automatically will choose to work on GPU if CUDA is detected.   
 For decent transcription use not smaller than `medium` model.   
 Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nwRCV-bTU   
