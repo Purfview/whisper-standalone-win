@@ -1,6 +1,9 @@
 ### Note: It's not a comprehensive log.
 
 ## r167.2:
+Bugfix: Illogical "Avoid computing higher temperatures on no_speech". [It could cause bad hallucination loops.]
+
+## r167.2:
 Fix: Commit #165 was missing in `r167.1` release.
 
 ## r167.1:
