@@ -2,6 +2,8 @@
 
 ## r167.3:
 Bugfix: Illogical "Avoid computing higher temperatures on no_speech". [It could cause bad hallucination loops]
+https://github.com/openai/whisper/pull/1903
+https://github.com/SYSTRAN/faster-whisper/pull/625
 
 ## r167.2:
 Fix: Commit #165 was missing in `r167.1` release.
