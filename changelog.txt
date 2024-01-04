@@ -1,3 +1,5 @@
+Log for Standalone Faster-Whisper
+
 ### Note: It's not a comprehensive log.
 
 ## r167.3:
