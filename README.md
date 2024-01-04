@@ -27,7 +27,8 @@ Examples how to do batch processing on the multiple files: https://github.com/Pu
    
 ## Faster-Whisper standalone info:
 
-Some defaults are tweaked for movies transcriptions and to make it portable.   
+Some defaults are tweaked for movies transcriptions and to make it portable.    
+Features various new experimental settings.   
 Shows the progress bar in the title bar of command-line interface. [or it can be printed with `-pp`]   
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/Systran        
