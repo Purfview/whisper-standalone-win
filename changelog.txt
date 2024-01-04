@@ -2,6 +2,10 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r167.4:
+Bugfix: Bug if couldn't detect the number of CPU's cores.
+Updated psutil to v5.9.7
+
 ## r167.3:
 Bugfix: Illogical "Avoid computing higher temperatures on no_speech". [It could cause bad hallucination loops]
 https://github.com/openai/whisper/pull/1903
