@@ -2,6 +2,22 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r167.5:
+Additional option for `--prompt_reset_on_no_end`
+Various audio filters:
+`--ff_dump`     
+`--ff_mp3`     
+`--ff_sync`      
+`--ff_rnndn_sh` 
+`--ff_rnndn_xiph`
+`--ff_fftdn`    
+`--ff_tempo`     
+`--ff_gate`     
+`--ff_speechnorm`
+`--ff_loudnorm` 
+`--ff_silence_suppress` 
+`--ff_lowhighpass`
+
 ## r167.4:
 Bugfix: Bug if couldn't detect the number of CPU's cores.
 Updated psutil to v5.9.7
