@@ -2,6 +2,15 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r172.1:
+Supports "Distil-Whisper" models:
+`distil-large-v2`
+`distil-medium.en`
+`distil-small.en`
+New args:
+`--max_new_tokens`
+`--chunk_length`
+
 ## r167.5:
 Additional option for `--prompt_reset_on_no_end`
 Various audio filters:
