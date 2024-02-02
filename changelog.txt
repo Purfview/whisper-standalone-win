@@ -2,6 +2,9 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r172.2:
+Increased "recursion" limit from 1000 to 10000.
+
 ## r172.1:
 Supports "Distil-Whisper" models:
 `distil-large-v2`
