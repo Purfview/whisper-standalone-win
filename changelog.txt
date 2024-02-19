@@ -5,7 +5,7 @@ Log for Standalone Faster-Whisper
 ## r172.4:
 Bugfix: With some CPUs rnndn filters were not working.
 Improved: `--sentence` doesn't treat ellipses (...) as the end of sentence, unless ellipses are at the end of a segment.
-Changed default: `--initial_prompt` to `auto`.
+Changed default of `--initial_prompt` to `auto`.
 
 ## r172.3:
 Better error handling for the audio filters.
