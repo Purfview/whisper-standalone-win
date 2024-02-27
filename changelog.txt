@@ -2,6 +2,17 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r182.1:
+Includes PR705 & PR706
+Excludes PR694
+Skip micro chunks.
+New args:
+`--hallucination_silence_threshold`
+`--clip_timestamps`
+Updated PyAV to v11.0.0 [ffmpeg 6.0]
+Updated PyInstaller to v6.4.0
+Updated CTranslate2 to v3.24.0
+
 ## r172.4:
 Bugfix: With some CPUs rnndn filters were not working.
 Improved: `--sentence` doesn't treat ellipses (...) as the end of sentence, unless ellipses are at the end of a segment.
