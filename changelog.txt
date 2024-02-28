@@ -2,6 +2,10 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r182.2:
+Bugfix: PR705 was incorporated a bit incorrectly.
+Bugfix: Bug with the custom prompt presets and task "translate".
+
 ## r182.1:
 Includes PR705 & PR706
 Excludes PR694
