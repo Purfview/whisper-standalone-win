@@ -12,7 +12,7 @@ Bugfix: Bug with the custom prompt presets and task "translate".
 
 ## r182.1:
 Includes PR705 & PR706
-Excludes PR694
+Excludes PR694 [aka CUDA12]
 Skip micro chunks.
 New args:
 `--hallucination_silence_threshold`
