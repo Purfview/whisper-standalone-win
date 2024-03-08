@@ -2,6 +2,10 @@ Log for Standalone Faster-Whisper
 
 ### Note: It's not a comprehensive log.
 
+## r186.1:
+Fix quirks with "The last progress update is passed to the title bar." [r160.11]
+Fix Linux exec issue with forward compatibility.
+
 ## r182.2:
 Bugfix: PR705 was incorporated a bit incorrectly.
 Bugfix: Bug with the custom prompt presets and task "translate".
