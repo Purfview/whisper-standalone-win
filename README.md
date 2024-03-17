@@ -4,7 +4,7 @@
 
 ![alt text](https://i.imgur.com/DYVm3u6.png)
 
-Standalone executables of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
+[Standalone executables](https://github.com/Purfview/whisper-standalone-win/releases) of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
 
 Faster-Whisper executables are x86-64 compatible with Windows 7, Linux v5.4, macOS v10.15 and above.    
 Meant to be used in command-line interface or in programs like [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit), [Tero Subtitler](https://github.com/URUWorks/TeroSubtitler), [FFAStrans](https://ffastrans.com/wp/).     
