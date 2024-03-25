@@ -26,7 +26,7 @@ Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nw
 Examples how to do batch processing on the multiple files: https://github.com/Purfview/whisper-standalone-win/discussions/29   
    
    
-## Faster-Whisper standalone info:
+## Standalone Faster-Whisper info:
 
 Some defaults are tweaked for movies transcriptions and to make it portable.    
 Features various new experimental settings.   
