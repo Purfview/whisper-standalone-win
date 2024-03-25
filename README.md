@@ -35,7 +35,7 @@ By default it looks for models in the same folder, in path like this -> `_models
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/Systran        
 `beam_size=1`: can speed-up transcription twice. [ in my tests it had insignificant impact on accuracy ]     
 `compute_type`: test different types to find fastest for your hardware. [`--verbose=true` to see all supported types]    
-To reduce memory usage try incrementally: `--best_of=1`, `beam_size=1`, `-fallback=None`.   
+To reduce memory usage try incrementally: `--best_of=1`, `--beam_size=1`, `-fallback=None`.   
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
