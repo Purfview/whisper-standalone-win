@@ -1,6 +1,24 @@
-Log for Standalone Faster-Whisper
+Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
+
+## r189.1:
+Supports `distil-large-v3` model.
+Switched auto prompt for Serbian to the latin alphabet.
+Auto-disable VAD when --clip_timestamps is in use.
+JSON output has addition 'text' key with all text aggregated.
+Fixed --task=translate and --postfix bug.
+--highlight_words now supports --max_line_width and --max_line_count
+Changed patience default.
+Adjusted "--hallucination_silence_threshold"s score algo, and new `--hallucination_silence_th_temp`
+Auto pseudo-vad th offsets for "large-v3", can be disabled with --v3_offsets_off.
+`--language_detection_threshold`
+`--language_detection_segments`
+`--ff_track` - Audio track selection. 
+`--ff_fc` - Front-Center channel selection.
+`--ff_dump` - Prevents deletion of some intermediate audio files.
+`--vad_dump` - Writes VAD timings to srt file.
+Updated PyInstaller to v6.5.0
 
 ## r186.1:
 Fix quirks with "The last progress update is passed to the title bar." [r160.11]
