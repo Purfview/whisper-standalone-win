@@ -16,7 +16,7 @@ Auto pseudo-vad th offsets for "large-v3", can be disabled with --v3_offsets_off
 `--language_detection_segments`
 `--ff_track` - Audio track selection. 
 `--ff_fc` - Front-Center channel selection.
-`--ff_dump` - Prevents deletion of some intermediate audio files.
+`--ff_dump` - Additionally prevents deletion of some intermediate audio files.
 `--vad_dump` - Writes VAD timings to srt file.
 Updated PyInstaller to v6.5.0
 Fix Linux exec issue with forward compatibility. v2
