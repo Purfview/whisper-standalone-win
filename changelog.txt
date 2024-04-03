@@ -3,7 +3,7 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 ### Note: It's not a comprehensive log.
 
 ## r192.1:
-Bugfix:  It was unnecessarily going through ffmpeg routines. [introduced in r189.1]
+Bugfix: It was unnecessarily going through ffmpeg routines. [introduced in r189.1]
 
 ## r189.1:
 Supports `distil-large-v3` model.
