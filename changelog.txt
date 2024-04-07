@@ -2,6 +2,10 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r192.1.1 [XXL]:
+`--ff_mdx_kim2`: Preprocess audio with MDX23 Kim vocal v2 model.
+`--vad_alt_method`: Alternative VAD methods - "silero_v3", "silero_v4", "pyannote_v3", "auditok", "webrtc".
+
 ## r192.1:
 Bugfix: It was unnecessarily going through ffmpeg routines. [introduced in r189.1]
 
