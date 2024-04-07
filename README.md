@@ -22,7 +22,10 @@ Programs automatically will choose to work on GPU if CUDA is detected.
 For decent transcription use not smaller than `medium` model.   
 Guide how to run the command line programs: https://www.youtube.com/watch?v=A3nwRCV-bTU   
 Examples how to do batch processing on the multiple files: https://github.com/Purfview/whisper-standalone-win/discussions/29   
-   
+
+## Standalone Whisper info:
+
+Vanilla Whisper, compiled as is - no changes to the original code.
    
 ## Standalone Faster-Whisper info:
 
@@ -33,7 +36,14 @@ By default it looks for models in the same folder, in path like this -> `_models
 Models are downloaded automatically or can be downloaded manually from: https://huggingface.co/Systran        
 `beam_size=1`: can speed-up transcription twice. [ in my tests it had insignificant impact on accuracy ]     
 `compute_type`: test different types to find fastest for your hardware. [`--verbose=true` to see all supported types]    
-To reduce memory usage try incrementally: `--best_of=1`, `--beam_size=1`, `-fallback=None`.   
+To reduce memory usage try incrementally: `--best_of=1`, `--beam_size=1`, `-fallback=None`. 
+
+## Standalone Faster-Whisper-XXL info:
+
+Includes all Standalone Faster-Whisper features +the additional ones mentioned below.   
+Preprocess audio with MDX23 Kim_vocal_v2 vocal extraction model.   
+Alternative VAD methods: 'silero_v3', 'silero_v4', 'pyannote_v3', 'auditok', 'webrtc'.   
+Read more about it in [the Discussion's thread](https://github.com/Purfview/whisper-standalone-win/discussions/231).
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
