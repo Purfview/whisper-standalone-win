@@ -2,6 +2,9 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r192.3.2 [XXL]:
+Various improvements and bugfixes to `--vad_alt_method`
+
 ## r192.3:
 Bugfix: 'one_word' was broken in r192.2.
 
