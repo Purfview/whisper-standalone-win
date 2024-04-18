@@ -28,6 +28,7 @@ Examples how to do batch processing on the multiple files: https://github.com/Pu
 ## Standalone Whisper info:
 
 Vanilla Whisper, compiled as is - no changes to the original code.
+A reference implementation, stagnant development, atm maybe useful for some tests.
    
 ## Standalone Faster-Whisper info:
 
