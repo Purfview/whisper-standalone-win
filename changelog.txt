@@ -2,6 +2,12 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r192.3.4 [XXL]:
+New feature: Write intermediate files to temp folder. [ignored on dump]
+New feature: Can take JSON files as input to generate subtitles from it according to the settings.
+New alternative VAD method : `pyannote_v3` [previous same named option renamed to "pyannote_onnx_v3"]
+New arg: `--nullify_non_speech` [for WIP experiments]
+
 ## r192.3.3 [XXL]:
 CTranslate2 updated to v4.2.0
 Transcription on CPU is up to ~26% faster.
