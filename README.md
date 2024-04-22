@@ -43,9 +43,9 @@ To reduce memory usage try incrementally: `--best_of=1`, `--beam_size=1`, `-fall
 
 ## Standalone Faster-Whisper-XXL info:
 
-Includes all Standalone Faster-Whisper features +the additional ones mentioned below.   
+Includes all Standalone Faster-Whisper features +the additional ones, for example:   
 Preprocess audio with MDX23 Kim_vocal_v2 vocal extraction model.   
-Alternative VAD methods: 'silero_v3', 'silero_v4', 'pyannote_onnx_v3', 'auditok', 'webrtc'.   
+Alternative VAD methods: 'silero_v3', 'silero_v4', 'pyannote_v3', 'pyannote_onnx_v3', 'auditok', 'webrtc'.   
 Read more about it in [the Discussions' thread](https://github.com/Purfview/whisper-standalone-win/discussions/231).
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
