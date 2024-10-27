@@ -7,7 +7,7 @@
 **Faster-Whisper** executables are x86-64 compatible with Windows 7, Linux v5.4, macOS v10.15 and above.   
 **Faster-Whisper-XXL** executables are x86-64 compatible with Windows 7, Linux v5.4 and above.   
 **Whisper** executables are x86-64 compatible with Windows 7 and above.   
-Meant to be used in command-line interface or in programs like [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit), [Tero Subtitler](https://github.com/URUWorks/TeroSubtitler), [FFAStrans](https://ffastrans.com/wp/).     
+Meant to be used in command-line interface or in programs like [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit), [Tero Subtitler](https://github.com/URUWorks/TeroSubtitler), [FFAStrans](https://ffastrans.com/wp/), [AviUtl](https://github.com/oov/aviutl_subtitler).       
 Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires less RAM/VRAM.
 
 ## Usage examples:
