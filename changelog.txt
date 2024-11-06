@@ -5,7 +5,7 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 ## r193.1 [XXL]:
 New feature: Diarization. 
 New feature: `large-v3-turbo` model autodownload.
-New feature: JSON output has addition 'language' key.
+New feature: JSON output has additional key: 'language'.
 New feature: `--postfix` works without --language.
 Bigfix: Rare bug in alternative subtitle writer [r189.1].
 Change: `--vad_alt_method` shorted to `--vad_method`.
@@ -40,7 +40,7 @@ Bugfix: It was unnecessarily going through ffmpeg routines. [introduced in r189.
 Supports `distil-large-v3` model.
 Switched auto prompt for Serbian to the latin alphabet.
 Auto-disable VAD when --clip_timestamps is in use.
-JSON output has addition 'text' key with all text aggregated.
+JSON output has additional 'text' key with all text aggregated.
 Fixed --task=translate and --postfix bug.
 --highlight_words now supports --max_line_width and --max_line_count
 Changed patience default.
