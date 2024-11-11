@@ -3,7 +3,7 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 ### Note: It's not a comprehensive log.
 
 ## r193.1 [XXL]:
-New feature: Diarization. 
+New feature: Speaker Diarization with `--diarize`. 
 New feature: `large-v3-turbo` model autodownload.
 New feature: JSON output has additional key: 'language'.
 New feature: `--postfix` works without --language.
