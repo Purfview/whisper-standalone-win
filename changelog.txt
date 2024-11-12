@@ -9,6 +9,7 @@ New feature: JSON output has additional key: 'language'.
 New feature: `--postfix` works without --language.
 Bigfix: Rare bug in alternative subtitle writer [r189.1].
 Change: `--vad_alt_method` shorted to `--vad_method`.
+Change: Windows 7 non supported anymore.
 
 ## r192.3.4 [XXL]:
 New feature: Write intermediate files to temp folder. [ignored on dump]
