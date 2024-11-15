@@ -7,7 +7,7 @@ New feature: Speaker Diarization with `--diarize`.
 New feature: `large-v3-turbo` model autodownload.
 New feature: JSON output has additional key: 'language'.
 New feature: `--postfix` works without --language.
-Bigfix: Rare bug in alternative subtitle writer [r189.1].
+Bigfix: Rare bug in alternative subtitle writer if "words" is empty [r189.1].
 Change: `--vad_alt_method` shorted to `--vad_method`.
 Change: Windows 7 non supported anymore.
 
