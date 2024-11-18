@@ -11,10 +11,10 @@ Meant to be used in command-line interface or in programs like [Subtitle Edit](h
 Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires less RAM/VRAM.
 
 ## Usage examples:
-* `whisper-faster.exe "D:\videofile.mkv" --language English --model medium --output_dir source`
-* `whisper-faster.exe "D:\videofile.mkv" -l English -m medium -o source --sentence`
-* `whisper-faster.exe "D:\videofile.mkv" -l Japanese -m medium --task translate --standard`      
-* `whisper-faster.exe --help`
+* `faster-whisper-xxl.exe "D:\videofile.mkv" --language English --model medium --output_dir source`
+* `faster-whisper-xxl.exe "D:\videofile.mkv" -l English -m medium -o source --sentence`
+* `faster-whisper-xxl.exe "D:\videofile.mkv" -l Japanese -m medium --task translate --standard`      
+* `faster-whisper-xxl.exe --help`
 
 ## Notes:
 
