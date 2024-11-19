@@ -2,6 +2,20 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r194.1 [XXL]:
+New feature: CUDA support for `pyannote_v3` and `pyannote_onnx_v3` VADs
+New feature: Selective output formats, for example: `--output_format srt json`
+New feature: `--diarize` will auto-activate `--sentence` and all output formats will be affected except json
+New `--diarize` options: `pyannote_v3.0`, `pyannote_v3.1`, `reverb_v1`, `reverb_v2`
+New diarization args: `--num_speakers`, `--min_speakers`, `--max_speakers` `--diarize_dump`
+Bugfix: Bug in alternative subtitle writer with max_line_width [r189.1].
+Bugfix: Bug in --sentence subtitle writer if "word" is space.
+Change: .cache dir is bound to exe dir instead of cwd.
+pyinstaller updated to 6.11.1
+CTranslate2 updated to 4.4.0 [+ Compute Capability 5.0 support]
+onnxruntime_gpu updated to 1.18.0 [CUDA 12.x cuDNN 8.x]
+Python updated to 3.10.11
+
 ## r193.1 [XXL]:
 New feature: Speaker Diarization with `--diarize`. 
 New feature: `large-v3-turbo` model autodownload.
