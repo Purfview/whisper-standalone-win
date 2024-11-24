@@ -8,6 +8,7 @@ Fix: --sentence was splitting words on hyphens.
 Fix: --sentence was splitting digits containing comma.
 Change: --sentence affects all output formats except json [previously only srt & vtt].
 Improvements and bugfixes for json input.
+Added "One Click Transcribe" tool: https://github.com/Purfview/whisper-standalone-win/discussions/337
 
 ## r194.1 [XXL]:
 New feature: CUDA support for `pyannote_v3` and `pyannote_onnx_v3` VADs
