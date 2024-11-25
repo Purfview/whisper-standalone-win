@@ -12,8 +12,8 @@ Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires le
 
 ## Usage examples:
 * `faster-whisper-xxl.exe "D:\videofile.mkv" --language English --model medium --output_dir source`
-* `faster-whisper-xxl.exe "D:\videofile.mkv" -l English -m medium -o source --sentence`
-* `faster-whisper-xxl.exe "D:\videofile.mkv" -l Japanese -m medium --task translate --standard`      
+* `faster-whisper-xxl.exe "D:\Folder" -l en -m turbo --sentence --batch_recursive`
+* `faster-whisper-xxl.exe "D:\videofile.mkv" -l Japanese -m medium --task translate --standard -o source`      
 * `faster-whisper-xxl.exe --help`
 
 ## Notes:
