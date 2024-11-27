@@ -36,13 +36,11 @@ Features various new experimental settings and tweaks.
 Shows the progress bar in the title bar of command-line interface. [or it can be printed with `-pp`]   
 By default it looks for models in the same folder, in path like this -> `_models\faster-whisper-medium`.   
 Models are downloaded automatically or can be downloaded manually from: [Systran](https://huggingface.co/Systran) & [Purfview](https://huggingface.co/Purfview)        
-`beam_size=1`: can speed-up transcription twice. [ in my tests it had insignificant impact on accuracy ]     
-`compute_type`: test different types to find fastest for your hardware. [`--verbose=true` to see all supported types]    
-To reduce memory usage try incrementally: `--best_of=1`, `--beam_size=1`, `-fallback=None`. 
+Deprecated. Use Faster-Whisper-XXL
 
 ## Standalone Faster-Whisper-XXL info:
 
-Includes all Standalone Faster-Whisper features +the additional ones, for example:   
+Includes all Standalone Faster-Whisper features + the additional ones, for example:   
 Preprocess audio with MDX23 Kim_vocal_v2 vocal extraction model.   
 Alternative VAD methods: 'silero_v3', 'silero_v4', 'pyannote_v3', 'pyannote_onnx_v3', 'auditok', 'webrtc'.   
 [Speaker Diarization](https://github.com/Purfview/whisper-standalone-win/discussions/322).    
