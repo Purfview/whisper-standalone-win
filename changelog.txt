@@ -2,6 +2,14 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r194.5 [XXL]:
+Change: Enable auto/default prompt presets for translation.
+
+## r194.4 [XXL]:
+Fix: --sentence was splitting digits containing dot.
+Fix: auditok
+Fix: Error with empty audio and pyannote_v3 vad
+
 ## r194.2 [XXL]:
 Bugfix: Broken outputs when diarize/sentence and batch input [194.1].
 Fix: --sentence was splitting words on hyphens.
