@@ -9,7 +9,7 @@ Change: Enable auto/default prompt presets for translation.
 Fix: --sentence was splitting digits containing dot.
 Fix: auditok
 Fix: Error with empty audio and pyannote_v3 vad
-Fix: prompt_reset_on_no_end when HST is triggered
+Fix: Disable prompt_reset_on_no_end when HST is triggered
 Removed experimental condition in HST algo
 
 ## r194.2 [XXL]:
