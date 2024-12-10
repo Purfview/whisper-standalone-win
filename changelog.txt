@@ -11,12 +11,10 @@ New features/args:
 `--hotwords`
 `--rehot`
 `--ignore_dupe_prompt`
-
 New `vad_method`'s:
 `silero_v5`
 `silero_v4_fw`
 `silero_v5_fw`
-
 Removed not useful experimental options:
 no_speech_strict_lvl
 nullify_non_speech
