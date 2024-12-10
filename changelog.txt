@@ -2,6 +2,27 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r239.1 [XXL]:
+New features/args:
+`--batched`
+`--unmerged`
+`--batch_size`
+`--multilingual`
+`--hotwords`
+`--rehot`
+`--ignore_dupe_prompt`
+
+New `vad_method`'s:
+`silero_v5`
+`silero_v4_fw`
+`silero_v5_fw`
+
+Removed not useful experimental options:
+no_speech_strict_lvl
+nullify_non_speech
+prompt_max
+reprompt's first option
+
 ## r194.5 [XXL]:
 Change: Enable auto/default prompt presets for translation.
 
