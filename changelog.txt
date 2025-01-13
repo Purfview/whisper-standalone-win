@@ -2,6 +2,11 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r245.1 [XXL]:
+Clean-up temp folder after Ctrl+C
+Fixed OOM error for `silero_v5_fw` on long audios
+New arg `--japanese` or `-ja`
+
 ## r239.1 [XXL]:
 New features/args:
 `--batched`
