@@ -2,6 +2,14 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r245.2 [XXL]:
+Fixed: Audio track selection with `--ff_track` didn't work with `--ff_mdx_kim2`.
+New feature: Deal with inverted polarity/phase in audios with new args: `--ff_lc` & `--ff_invert`.
+New feature: `--model_preload` [its automatic]. Fixes FW model interference with `--ff_mdx_kim2`.
+New feature: `--diarize_ff` [its automatic]. Enables diarization after `--ff_...` filters.
+New feature: Output diarization embeddings with `--return_embeddings`/`-embeddings`.
+New feature: Diarize without transcription with `--diarize_only`.
+
 ## r245.1 [XXL]:
 Clean-up temp folder after Ctrl+C
 Fixed OOM error for `silero_v5_fw` on long audios
