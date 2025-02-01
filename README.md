@@ -5,7 +5,7 @@
 [Standalone executables](https://github.com/Purfview/whisper-standalone-win/releases) of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
 
 **Faster-Whisper** executables are x86-64 compatible with Windows 7, Linux v5.4, macOS v10.15 and above.   
-**Faster-Whisper-XXL** executables are x86-64 compatible with Windows 10, Linux v5.15 and above.   
+**Faster-Whisper-XXL** the last executables are x86-64 compatible with Windows 10, Linux v5.15 and above.   
 **Whisper** executables are x86-64 compatible with Windows 10 and above.   
 Meant to be used in command-line interface or in programs like:   
 [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit), [Tero Subtitler](https://github.com/URUWorks/TeroSubtitler), [FFAStrans](https://ffastrans.com/wp/), [AviUtl](https://github.com/oov/aviutl_subtitler), [PotPlayer](https://potplayer.daum.net)           
