@@ -6,6 +6,8 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 Fixed: Model didn't free VRAM when --model_preload False
 Fixed: "cuda:1" didn't work with MDX
 Fixed: Some issues in "One Click Transcribe.bat"
+Fixed: Matplotlib backend error [Colab]
+Fixed: fix: cudnn libs not found error [Linux]
 Changed: `--ff_mdx_kim2` to `--ff_vocal_extract mdx_kim2`
 Changed: `--mdx_device` to `--voc_device`
 Added: `distil-large-v3.5` model
