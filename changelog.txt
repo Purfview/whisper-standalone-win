@@ -2,6 +2,9 @@ Log for Standalone Faster-Whisper & Faster-Whisper-XXL
 
 ### Note: It's not a comprehensive log.
 
+## r245.4 [XXL]:
+Fixed: 'unload_model' error when using batched inference
+
 ## r245.3 [XXL]:
 Fixed: Model didn't free VRAM when --model_preload False
 Fixed: "cuda:1" didn't work with MDX
