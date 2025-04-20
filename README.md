@@ -4,9 +4,11 @@
 
 [Standalone executables](https://github.com/Purfview/whisper-standalone-win/releases) of [OpenAI's Whisper](https://github.com/openai/whisper) & [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) for those who don't want to bother with Python.
 
-**Faster-Whisper** executables are x86-64 compatible with Windows 7, Linux v5.4, macOS v10.15 and above.   
-**Faster-Whisper-XXL** the last executables are x86-64 compatible with Windows 10, Linux v5.15 and above.   
-**Whisper** executables are x86-64 compatible with Windows 10 and above.   
+**Faster-Whisper** - executables are x86-64 compatible with Windows 7, Linux v5.4, macOS v10.15 and above.   
+**Faster-Whisper-XXL** - the last executables are x86-64 compatible with Windows 10, Linux v5.15 and above.       
+[**Faster-Whisper-XXL Pro**](https://github.com/Purfview/whisper-standalone-win/discussions/456) - as above. Special non-public version for the donators.           
+**Whisper** - executables are x86-64 compatible with Windows 10 and above.   
+     
 Meant to be used in command-line interface or in programs like:   
 [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit), [Tero Subtitler](https://github.com/URUWorks/TeroSubtitler), [FFAStrans](https://ffastrans.com/wp/), [AviUtl](https://github.com/oov/aviutl_subtitler), [PotPlayer](https://potplayer.daum.net)           
 Faster-Whisper is much faster & better than OpenAI's Whisper, and it requires less RAM/VRAM.
@@ -47,6 +49,11 @@ Alternative VAD methods: 'silero_v3', 'silero_v4', 'silero_v5', 'pyannote_v3', '
 [Speaker Diarization](https://github.com/Purfview/whisper-standalone-win/discussions/322).    
 Read more about new features in [the Discussions' thread](https://github.com/Purfview/whisper-standalone-win/discussions/231).
 
+## Standalone Faster-Whisper-XXL Pro info:    
+    
+Special non-public version for the donators.     
+Includes some new advanced features, there is the log: [the Discussions' thread](https://github.com/Purfview/whisper-standalone-win/discussions/456).  
+       
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2)
 
 
